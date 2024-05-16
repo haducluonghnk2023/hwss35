@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Hw4() {
-    const [isHidden,setIsHidden] = React.useState(false);
+    const [isHidden,setIsHidden] = React.useState<boolean>(false);
     const changeStatus = () =>{
         setIsHidden(!isHidden)
     }

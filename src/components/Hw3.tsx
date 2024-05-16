@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Hw3() {
-        const [color,setColor] = React.useState('black')
+        const [color,setColor] = React.useState<string>('black')
         const changeColor = () => {
             setColor(color === "black" ? "red" : "black")
         }
