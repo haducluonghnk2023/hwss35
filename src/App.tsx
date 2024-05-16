@@ -24,8 +24,9 @@ export default function App() {
       <Hw8></Hw8>
       <Hw9></Hw9>
       <Hw10></Hw10>
-      <Hw11></Hw11>
-      <Hw12></Hw12>
+      {/* <Hw11></Hw11>
+      <Hw12></Hw12> */}
+
     </div>
   )
 }

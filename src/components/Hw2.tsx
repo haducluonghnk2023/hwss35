@@ -1,10 +1,10 @@
 import React from 'react'
 
 export default function Hw2() {
-    const [product,setProduct] =React.useState({
+    const [product,setProduct] =React.useState<any>({
         id:1,
-        name:"coca cola",
-        price:10000,
+        name:"ha duc luong",
+        price:1111,
         quantity:5
     })
   return (
